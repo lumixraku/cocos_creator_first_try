@@ -12,8 +12,10 @@ const {ccclass, property} = cc._decorator;
 
 
 @ccclass
-export default class NewScript extends cc.Component {
+export default class Player extends cc.Component {
 
+
+    
     // 主角跳跃高度
     @property
     jumpHeight = 0;
@@ -73,11 +75,9 @@ export default class NewScript extends cc.Component {
     
     // called every frame
     update(dt) {
-        console.log(".........dt  update .........")
         // 根据当前加速度方向每帧更新速度
         if (this.accLeft) {
             this.xSpeed -= this.accel * dt;
-            console.log()
         } else if (this.accRight) {
             this.xSpeed += this.accel * dt;
         }
@@ -157,7 +157,6 @@ export default class NewScript extends cc.Component {
     }
 
     setJumpAction() {
-        console.log("......jump Action ......")
 
         // 跳跃上升
         var jumpUp = cc.moveBy(this.jumpDuration, cc.v2(0, this.jumpHeight)).easing(cc.easeCubicActionOut());

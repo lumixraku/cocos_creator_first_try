@@ -17,7 +17,7 @@
         "__id__": 2
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [],
     "_prefab": null,
     "_opacity": 255,
@@ -91,6 +91,9 @@
     "_components": [
       {
         "__id__": 16
+      },
+      {
+        "__id__": 17
       }
     ],
     "_prefab": null,
@@ -180,7 +183,7 @@
       "array": [
         0,
         0,
-        324.7502834909308,
+        418.2902700278839,
         0,
         0,
         0,
@@ -742,5 +745,36 @@
     "_fitWidth": false,
     "_fitHeight": true,
     "_id": "542U79fjBLsYTONZ05XypX"
+  },
+  {
+    "__type__": "aed668MVIZLs6VESqMJZRSe",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "starPrefab": {
+      "__uuid__": "1b2ca45f-c333-423d-86e0-ccf82f634be2"
+    },
+    "scoreFXPrefab": null,
+    "maxStarDuration": 1000000,
+    "minStarDuration": 100000,
+    "ground": {
+      "__id__": 11
+    },
+    "player": {
+      "__id__": 15
+    },
+    "scoreDisplay": null,
+    "scoreAudio": {
+      "__uuid__": "5bcd84e4-a036-4e2e-9c54-5d464eeddeb5"
+    },
+    "btnNode": null,
+    "gameOverNode": null,
+    "controlHintLabel": null,
+    "keyboardHint": "",
+    "touchHint": "",
+    "_id": "c2ffLfBj1PxIYchbKq0q7V"
   }
 ]
